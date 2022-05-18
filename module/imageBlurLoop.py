@@ -28,7 +28,6 @@ def blurImageWithLoop():
         # cv2.destroyAllWindows()
         os.chdir(saveDirectory)
         print("Before saving image:")  
-        print(os.listdir(directory)) 
         filename = str(filenamePre) + filenamePost
         print(filename)
         filenamePre += 1
